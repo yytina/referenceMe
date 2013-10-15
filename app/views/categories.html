@@ -1,1 +1,9 @@
-<p>This is the categories view.</p>
+<h2> Reference Websites for <b>{{subject}} </b></h2 >
+
+<ul ng-repeat="link in hipchatLinks | filter:{ tag: subject}">
+        <li ><a href=" {{link.url}}"> {{link.url}}</a><br>
+        	<em>date:{{link.date}}</em> 
+        </li>
+
+</ul>
+

@@ -7,4 +7,8 @@ angular.module('referenceMeApp')
       'AngularJS',
       'Karma'
     ];
+    
+    $scope.hipchatLinks=hipchatLinks;
+
+
   });
